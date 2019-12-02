@@ -4,4 +4,10 @@ $(document).ready(function() {
 
      // initialize carousel
      $('.carousel').carousel();
+
+     // add animation
+     $('.materialboxed').materialbox();
+
+     // add parallax
+     $('.parallax').parallax();
 });
