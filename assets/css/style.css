@@ -1,0 +1,25 @@
+header {
+    background: url(../images/blue.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+
+#side-image {
+    height: 200px;
+    width: 160px;
+    padding-top: 20px;
+    position: relative;
+    left: 40px;
+    border-radius: 100px;
+}
+
+.sidenav li:hover {
+    background-color: #8fcaed;
+}
+
+@media screen and (max-width: 670px){
+    header {
+        min-height: 500px;
+    }
+}
