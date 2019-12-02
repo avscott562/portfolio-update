@@ -19,9 +19,46 @@ header {
     background-color: #8fcaed;
 }
 
+.section-title {
+    color: #044368;
+}
+
+.project-wrapper {
+    background: #044368;
+    background-size: cover;
+}
+
+#project-section {
+    height: 700px;
+}
+
+#work, .project-title {
+    color: #fff;
+}
+
+.project-header {
+    display: flex;
+}
+
+.project-title {
+    width: 90%;
+}
+
+.project-icon {
+    width: 10%;
+}
+
+.carousel {
+    perspective: 200px;
+}
+.carousel .carousel-item {
+    width: 400px;
+    height: 300px;
+}
+
 .project-image {
-    height: 200px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width: 670px){
