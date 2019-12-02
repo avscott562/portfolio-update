@@ -9,13 +9,19 @@ header {
     height: 200px;
     width: 160px;
     padding-top: 20px;
+    /* margin: 0 auto; */
     position: relative;
-    left: 40px;
-    border-radius: 100px;
+    left: 60px;
+    border-radius: 50%;
 }
 
 .sidenav li:hover {
     background-color: #8fcaed;
+}
+
+.project-image {
+    height: 200px;
+    width: 150px;
 }
 
 @media screen and (max-width: 670px){
