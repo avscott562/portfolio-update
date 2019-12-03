@@ -1,9 +1,13 @@
+body {
+    font-family: 'Baskervville', serif;
+}
+
 header {
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     background: url(../images/blue.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 1000px;
+    min-height: 800px;
     padding: 1em 2em;
     font-size: 18px;
 }
@@ -37,11 +41,17 @@ header {
 
 .section-title {
     color: #044368;
+    padding-bottom: 3vw;
 }
 
 .bio-image {
     height: 100%;
     width: 100%;
+}
+
+.service-offering {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
 
 .project-wrapper {
