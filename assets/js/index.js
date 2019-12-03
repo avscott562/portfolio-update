@@ -1,4 +1,5 @@
 $(document).ready(function() {
+     AOS.init();
      // to open side nav menu when navbar links reduce to hamburger menu
      $(".sidenav").sidenav();
 
@@ -12,7 +13,9 @@ $(document).ready(function() {
      $('.parallax').parallax();
 });
 
-const scroll = new SmoothScroll('.nav-wrapper a[href*="#"]');
+const scroll = new SmoothScroll('.nav-wrapper a[href*="#"]', {
+     speed: 800
+});
 
 var TxtRotate = function(el, toRotate, period) {
      this.toRotate = toRotate;
