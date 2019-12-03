@@ -12,6 +12,8 @@ $(document).ready(function() {
      $('.parallax').parallax();
 });
 
+const scroll = new SmoothScroll('.nav-wrapper a[href*="#"]');
+
 var TxtRotate = function(el, toRotate, period) {
      this.toRotate = toRotate;
      this.el = el;

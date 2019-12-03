@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -42,14 +43,16 @@
             </ul>
         </nav>
 
-        <div class="valign-wrapper">
-            <h1 class="header-title">Hi!  Alicia Scott here.  Welcome to my portfolio!
-                <br><br>  I am 
-                <span
-                    class="txt-rotate"
-                    data-period="2000"
-                    data-rotate='[ "a Full Stack Web Developer.", "a Web Designer.", "a Web Consultant", "an Innovator.", "excited to work with you!" ]'></span>
-            </h1>
+        <div class="center-align head-wrapper">
+            <h1 class="header-title animated bounceInRight slow">Hi!  Alicia Scott here.</h1>
+            <br>
+            <p class="animated zoomIn delay-2s">Welcome!</p>
+            <br>
+            <p class="animated fadeInUpBig delay-3s slow">I am 
+                    <span
+                        class="txt-rotate"
+                        data-period="2000"
+                        data-rotate='[ "a Full Stack Web Developer.", "a Web Designer.", "a Web Consultant", "an Innovator.", "excited to work with you!" ]'></span></p>
         </div>
     </header>
 
@@ -176,15 +179,61 @@
         <h3 id="contact" class="section-title">Contact Me</h3>
 
         <div class="row">
-            <div class="col s12 m6 l4"></div>
-            <div class="col s12 m6 l4"></div>
-            <div class="col s12 m6 l4"></div>
+            <div class="col s12 m6 contact-wrapper">
+                <div class="row">
+                    <div class="col s4">
+                        <a href="#"><i class="medium fas fa-envelope-square"></i></a>
+                    </div>
+                    <div class="col s8">info@domain.com</div>
+                </div>
+            </div>
+            <div class="col s12 m6 contact-wrapper">
+                <div class="row">
+                    <div class="col s4">
+                        <a href="#"><i class="medium fas fa-address-card"></i></a>
+                    </div>
+                    <div class="col s8">1234 Main Street, Riverside, CA  92501</div>
+                </div>
+            </div>
+            <div class="col s12 m6 contact-wrapper">
+                <div class="row">
+                    <div class="col s4">
+                        <a href="tel://"><i class="medium fas fa-phone"></i></a>
+                    </div>
+                    <div class="col s8">+123 456 7890</div>
+                </div>
+            </div>
+            <div class="col s12 m6 contact-wrapper">
+                <div class="row">
+                    <div class="col s4">
+                        <a href="https://linkedin.com"><i class="medium fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="col s8">Linked In</div>
+                </div>
+            </div>
+            <div class="col s12 m6 contact-wrapper">
+                <div class="row">
+                    <div class="col s4">
+                        <a href="https://facebook.com"><i class="medium fab fa-facebook-square"></i></a>
+                    </div>
+                    <div class="col s8">Facebook</div>
+                </div>
+            </div>
+            <div class="col s12 m6 contact-wrapper">
+                <div class="row">
+                    <div class="col s4">
+                        <a href="https://linkedin.com"><i class="medium fab fa-instagram"></i></a>
+                    </div>
+                    <div class="col s8">Instagram</div>
+                </div>
+            </div>
         </div>
 
     </div>
 
     <!-- Add jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
     <!-- Scrollmagic -->
     <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script> -->
