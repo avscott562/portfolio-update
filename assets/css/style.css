@@ -1,13 +1,24 @@
 header {
+    font-family: 'Raleway', sans-serif;
     background: url(../images/blue.jpg);
     background-size: cover;
     background-position: center;
     min-height: 1000px;
+    padding: 1em 2em;
+    font-size: 18px;
 }
+  
+  .header-title {
+    font-weight: 200;
+    margin: 0.4em 0;
+    font-size: 3.5em;
+    padding-top: 50px;
+  }
+
 
 #side-image {
-    height: 200px;
-    width: 160px;
+    height: 230px;
+    width: 170px;
     padding-top: 20px;
     /* margin: 0 auto; */
     position: relative;
@@ -26,6 +37,11 @@ header {
 
 .section-title {
     color: #044368;
+}
+
+.bio-image {
+    height: 100%;
+    width: 100%;
 }
 
 .project-wrapper {
