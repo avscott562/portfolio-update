@@ -21,6 +21,14 @@ header {
 
   .head-wrapper p {
       font-size: 45px;
+      color: #031149;
+  }
+
+  .arrow {
+      color: #031149;
+      animation-duration: 1.5s;
+      animation-delay: 28s;
+      animation-iteration-count: infinite;
   }
 
 
@@ -39,13 +47,13 @@ header {
 }
 
 .section {
-    padding-top: 4vw;
+    padding-top: 2vw;
     padding-bottom: 4vw;
 }
 
 .section-title {
-    color: #044368;
-    padding-bottom: 3vw;
+    color: #031149;
+    padding-bottom: 2vw;
 }
 
 .bio-image {
@@ -53,13 +61,18 @@ header {
     width: 100%;
 }
 
-.service-offering, .contact-wrapper {
+.contact-wrapper {
     padding-top: 3vw;
     padding-bottom: 3vw;
 }
 
+/* .service-offering {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+} */
+
 .project-wrapper {
-    background: #044368;
+    background: #031149;
     background-size: cover;
 }
 
